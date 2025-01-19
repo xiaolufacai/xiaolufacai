@@ -115,12 +115,10 @@
                 draw();
                 requestAnimationFrame(loop);
             }
-
             window.addEventListener('resize', () => {
                 width = canvas.width = window.innerWidth;
                 height = canvas.height = window.innerHeight;
             });
-
             canvas.addEventListener('click', (e) => {
                 createFirework(e.clientX, e.clientY);
             });
