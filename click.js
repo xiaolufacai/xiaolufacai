@@ -11,7 +11,7 @@
         maxIntervalTime: 500,  // 最大点击间隔
         positionJitter: 5,     // 点击位置的随机抖动范围（像素）
         pathJitter: 20,        // 鼠标路径的随机波动范围（像素）
-        maxHoverDuration: 1000 // 最大悬停时间（毫秒）
+        maxHoverDuration: 200 // 最大悬停时间（毫秒）
     };
 
     // 监听鼠标移动，实时更新坐标
